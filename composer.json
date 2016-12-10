@@ -1,0 +1,31 @@
+{
+    "name": "munspel/web-lab",
+    "description": "Exemple 4. ELOQUENT ORM",
+    "require": {
+        "twig/twig": "^1.24",
+        "illuminate/database": "*",
+        "php-console/php-console": "~3.0",
+        "npm-asset/bootstrap": "dev-master",
+        "npm-asset/jquery": "1.9.x",
+        "npm-asset/ckeditor": "4.5.x",
+        "npm-asset/jquery-validation": "1.15.x"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "web/assets/vendor",
+            "bower-asset-library": "web/assets/vendor"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Lisnyak",
+            "email": "munspel@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WebLab\\": "core/"
+        }
+    }
+}
