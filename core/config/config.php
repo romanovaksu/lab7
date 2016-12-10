@@ -10,9 +10,9 @@ return [
         "db"=>[
             'driver' => 'mysql',
             'host' => 'mysql.zzz.com.ua',
-            'database' => 'andrianpony',
-            'username' => 'KayafasKain',
-            'password' => 'TAVRIA8899',
+            'database' => 'RomanovaVasilenko',
+            'username' => 'admin',
+            'password' => 'admin',
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix' => ''
